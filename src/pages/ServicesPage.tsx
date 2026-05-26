@@ -3,23 +3,23 @@ import { Code2, Factory, ShieldCheck, Microscope } from 'lucide-react';
 const services = [
   {
     icon: Microscope,
-    title: 'R&D and Custom Design',
-    desc: 'From initial prototyping to architecture design, our engineers specialize in complex PCB layouts and system-on-chip solutions.'
+    title: 'Energy Technology R&D',
+    desc: 'We design and develop energy management solutions for modern industrial and utility applications, from concept validation to product-ready architecture.'
   },
   {
     icon: Factory,
-    title: 'Advanced Manufacturing',
-    desc: 'Precision assembly with state-of-the-art SMT lines and automated optical inspection to ensure zero-defect production.'
+    title: 'Smart Devices Development',
+    desc: 'Custom electronic devices for metering, monitoring, control, and field deployment, built to support reliable energy data collection and operation.'
   },
   {
     icon: ShieldCheck,
-    title: 'Quality Assurance',
-    desc: 'Comprehensive environmental stress screening, EMI/EMC compliance testing, and long-term reliability assessments.'
+    title: 'Reliable Industrial Solutions',
+    desc: 'Solutions designed with long-term reliability, secure operation, and real-world industrial conditions in mind.'
   },
   {
     icon: Code2,
-    title: 'Embedded Software',
-    desc: 'Custom firmware development, RTOS integration, and secure cloud connectivity protocols tailored to your hardware.'
+    title: 'Embedded and Platform Software',
+    desc: 'Firmware, communication protocols, dashboards, and cloud-connected platforms that help manage, monitor, and optimize energy usage.'
   }
 ];
 
@@ -28,8 +28,8 @@ export default function ServicesPage() {
     <div className="pt-20">
       <section className="bg-slate-900 py-32 px-6">
         <div className="max-w-7xl mx-auto text-center">
-          <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 italic uppercase tracking-tighter">Manufacturing <span className="text-blue-500">Excellence</span></h1>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto underline decoration-blue-600 underline-offset-8">End-to-end electronics development from conceptual whiteboard to global shipping.</p>
+          <h1 className="text-5xl md:text-7xl font-bold text-white mb-8 italic uppercase tracking-tighter">Energy Management <span className="text-blue-500">Solutions</span></h1>
+          <p className="text-xl text-slate-300 max-w-2xl mx-auto underline decoration-blue-600 underline-offset-8">Devices and platforms that help industrial and utility customers monitor, control, and manage energy more effectively.</p>
         </div>
       </section>
 
@@ -51,25 +51,25 @@ export default function ServicesPage() {
 
       <section className="py-24 bg-white border-y">
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-            <div className="space-y-8">
-                <h2 className="text-4xl font-bold text-slate-900">Zero-Compromise Standards</h2>
-                <div className="space-y-6">
-                    {[
-                        'ISO 9001:2015 Certified Manufacturing',
-                        'IPC-A-610 Workmanship Standards',
-                        'ROHS & REACH Material Compliance',
-                        'Military-grade thermal cycling capabilities'
-                    ].map(text => (
-                        <div key={text} className="flex items-center gap-4 text-slate-700 font-medium">
-                            <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                            {text}
-                        </div>
-                    ))}
+          <div className="space-y-8">
+            <h2 className="text-4xl font-bold text-slate-900">Built for Practical Energy Operations</h2>
+            <div className="space-y-6">
+              {[
+                'Smart metering and energy monitoring devices',
+                'Embedded firmware for reliable field operation',
+                'Communication with industrial and IoT platforms',
+                'Dashboards and tools for energy visibility and management'
+              ].map(text => (
+                <div key={text} className="flex items-center gap-4 text-slate-700 font-medium">
+                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
+                  {text}
                 </div>
+              ))}
             </div>
-            <div className="bg-slate-100 aspect-video rounded-3xl flex items-center justify-center font-mono text-slate-400 border-2 border-dashed border-slate-200">
-                [Laboratory_Visualization_Feed]
-            </div>
+          </div>
+          <div className="bg-slate-100 aspect-video rounded-3xl flex items-center justify-center font-mono text-slate-400 border-2 border-dashed border-slate-200">
+            [Energy_Management_System_View]
+          </div>
         </div>
       </section>
     </div>

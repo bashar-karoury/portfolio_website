@@ -5,11 +5,11 @@ import { motion, AnimatePresence } from 'motion/react';
 import { cn } from '../../lib/utils';
 
 const navLinks = [
-  { name: 'Products', href: '/products' },
+  // { name: 'Products', href: '/products' },
   { name: 'Services', href: '/services' },
   { name: 'Industries', href: '/industries' },
   { name: 'About', href: '/about' },
-  { name: 'Resources', href: '/resources' },
+  // { name: 'Resources', href: '/resources' },
 ];
 
 export default function Header() {
@@ -24,11 +24,11 @@ export default function Header() {
   }, []);
 
   return (
-    <header 
+    <header
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300 border-b",
-        scrolled 
-          ? "bg-[#05070A]/80 backdrop-blur-md border-white/5 py-4 shadow-2xl" 
+        scrolled
+          ? "bg-[#05070A]/80 backdrop-blur-md border-white/5 py-4 shadow-2xl"
           : "bg-transparent border-transparent py-8"
       )}
     >
@@ -56,8 +56,8 @@ export default function Header() {
               {link.name}
             </Link>
           ))}
-          <Link 
-            to="/contact" 
+          <Link
+            to="/contact"
             className="px-6 py-2 border border-blue-500/30 bg-blue-500/10 hover:bg-blue-500/20 text-blue-400 text-[10px] font-bold uppercase tracking-widest rounded transition-all"
           >
             Request Quote
@@ -65,7 +65,7 @@ export default function Header() {
         </nav>
 
         {/* Mobile Toggle */}
-        <button 
+        <button
           className="md:hidden text-slate-900"
           onClick={() => setIsOpen(!isOpen)}
         >
@@ -93,7 +93,7 @@ export default function Header() {
                   {link.name}
                 </Link>
               ))}
-              <Link 
+              <Link
                 to="/contact"
                 onClick={() => setIsOpen(false)}
                 className="bg-blue-600 text-white py-4 rounded-xl text-center font-bold"
