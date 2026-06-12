@@ -2,7 +2,7 @@ export default function AboutPage() {
   return (
     <div className="pt-20 px-6 max-w-7xl mx-auto py-24">
       <div className="max-w-3xl mb-20">
-        <h1 className="text-5xl font-bold mb-10 leading-tight text-slate-900">Engineering smarter <span className="text-blue-600 italic">energy</span> systems.</h1>
+        <h1 className="text-5xl font-bold mb-10 leading-tight text-slate-600">Engineering smarter <span className="text-blue-600 italic">energy</span> systems.</h1>
         <p className="text-xl text-slate-600 leading-relaxed">
           Sutric Advanced Technologies develops energy management technology solutions for modern industrial and utility applications, combining smart devices, embedded systems, and connected platforms.
         </p>

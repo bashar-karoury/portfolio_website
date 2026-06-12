@@ -2,7 +2,7 @@ export default function IndustriesPage() {
   return (
     <div className="pt-20 px-6 py-24 max-w-7xl mx-auto">
       <header className="mb-20 text-center">
-        <h1 className="text-5xl font-bold text-slate-900 mb-6 uppercase italic">Industries Served</h1>
+        <h1 className="text-5xl font-bold text-slate-600 mb-6 uppercase italic">Industries Served</h1>
         <p className="text-xl text-slate-600 max-w-2xl mx-auto">Energy management devices and platforms designed for industrial, utility, and infrastructure applications.</p>
       </header>
 
