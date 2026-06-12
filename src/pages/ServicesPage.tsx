@@ -67,9 +67,7 @@ export default function ServicesPage() {
               ))}
             </div>
           </div>
-          <div className="bg-slate-100 aspect-video rounded-3xl flex items-center justify-center font-mono text-slate-400 border-2 border-dashed border-slate-200">
-            [Energy_Management_System_View]
-          </div>
+          <div className="bg-slate-100 aspect-video rounded-3xl overflow-hidden border border-slate-200 shadow-sm"> <img src="/images/energy-management-dashboard.png" alt="Energy management dashboard showing live monitoring, device status, and usage analytics" className="w-full h-full object-cover" loading="lazy" /> </div>
         </div>
       </section>
     </div>
