@@ -89,9 +89,9 @@ export default function ContactPage() {
                 </div>
             </div>
 
-            <div className="h-[400px] w-full bg-slate-100 flex items-center justify-center font-mono text-slate-400 border-t">
+            {/* <div className="h-[400px] w-full bg-slate-100 flex items-center justify-center font-mono text-slate-400 border-t">
                 [Energy_Solutions_Location_Map]
-            </div>
+            </div> */}
         </div>
     );
 }
