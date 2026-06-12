@@ -41,7 +41,7 @@ export default function ServicesPage() {
                 <item.icon size={32} />
               </div>
               <div className="space-y-4">
-                <h3 className="text-2xl font-bold text-slate-700">{item.title}</h3>
+                <h3 className="text-2xl font-bold text-slate-600">{item.title}</h3>
                 <p className="text-slate-600 leading-relaxed">{item.desc}</p>
               </div>
             </div>
