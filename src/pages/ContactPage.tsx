@@ -28,7 +28,7 @@ export default function ContactPage() {
                             </div>
                             <div>
                                 <h4 className="font-bold text-slate-900 mb-1">Business Inquiries</h4>
-                                <p className="text-slate-500">support@sutric.me</p>
+                                <p className="text-slate-500">contact@sutric.co</p>
                             </div>
                         </div>
                         <div className="flex gap-6">
@@ -71,10 +71,10 @@ export default function ContactPage() {
                         <div className="space-y-2">
                             <label className="text-xs font-bold text-slate-400 uppercase tracking-widest font-mono">Solution Interest</label>
                             <select className="w-full bg-white/5 border border-white/10 rounded-xl px-5 py-4 text-white outline-none focus:border-blue-500 transition-all appearance-none cursor-pointer">
-                                <option>Smart Metering</option>
-                                <option>Energy Monitoring</option>
-                                <option>Embedded Devices</option>
-                                <option>IoT Platform Integration</option>
+                                <option style={{ backgroundColor: '#1855b7', color: '#ffffff' }}>Smart Metering</option>
+                                <option style={{ backgroundColor: '#1855b7', color: '#ffffff' }}>Energy Monitoring</option>
+                                <option style={{ backgroundColor: '#1855b7', color: '#ffffff' }}>Embedded Devices</option>
+                                <option style={{ backgroundColor: '#1855b7', color: '#ffffff' }}>IoT Platform Integration</option>
                             </select>
                         </div>
                         <div className="space-y-2">
